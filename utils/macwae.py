@@ -24,7 +24,6 @@ from multivae.models.nn.default_architectures import BaseDictDecoders, MultipleH
 @dataclass
 class MACWAEConfig(BaseJointModelConfig):
     beta: float = 1.0
-    # alpha: float = 1.0
     random_init: bool = False
     kernel_bandwidth: float = 1.0
     use_wasserstein: bool = True
