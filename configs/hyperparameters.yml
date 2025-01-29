@@ -1,0 +1,154 @@
+MMNIST:
+
+  MACWAE: 
+    LATENT_DIM: [64]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [128]
+    DROPOUT_RATE: [0.4]
+    NUM_DROPOUTS: [10]
+    RANDOM_INIT: [False] 
+    EXHAUSTIVE: [False] 
+
+  JMVAE: 
+    LATENT_DIM: [64]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [128]
+
+  MoPoE: 
+    LATENT_DIM: [64]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [128]
+
+  MVTCAE: 
+    LATENT_DIM: [64]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [128]
+
+  NEXUS: 
+    LATENT_DIM: [64]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [128]
+
+CUB:
+  MACWAE: 
+    LATENT_DIM: [256]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [200]
+    LEARNING_RATE: [1e-4]
+    BATCH_SIZE: [32]
+    DROPOUT_RATE: [0.25]
+    NUM_DROPOUTS: [5]
+    RANDOM_INIT: [False] 
+    EXHAUSTIVE: [False]     
+
+  JMVAE: 
+    LATENT_DIM: [256]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [200]
+    LEARNING_RATE: [1e-4]
+    BATCH_SIZE: [32]
+
+  MoPoE: 
+    LATENT_DIM: [256]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [200]
+    LEARNING_RATE: [1e-4]
+    BATCH_SIZE: [32]
+
+  MVTCAE: 
+    LATENT_DIM: [256]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [200]
+    LEARNING_RATE: [1e-4]
+    BATCH_SIZE: [32]
+
+  NEXUS: 
+    LATENT_DIM: [256]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [200]
+    LEARNING_RATE: [1e-4]
+    BATCH_SIZE: [32]
+
+MHD:
+  MACWAE: 
+    LATENT_DIM: [128]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [1e-3]
+    BATCH_SIZE: [64]
+    DROPOUT_RATE: [0.25]
+    NUM_DROPOUTS: [10]
+    RANDOM_INIT: [False] 
+    EXHAUSTIVE: [False]
+
+  JMVAE: 
+    LATENT_DIM: [128]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [1e-3]
+    BATCH_SIZE: [64]
+
+  MoPoE: 
+    LATENT_DIM: [128]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [1e-3]
+    BATCH_SIZE: [64]
+
+  MVTCAE: 
+    LATENT_DIM: [128]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [1e-3]
+    BATCH_SIZE: [64]
+
+  NEXUS: 
+    LATENT_DIM: [128]
+    BETA : [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [1e-3]
+    BATCH_SIZE: [64]
+
+CELEBA:
+  MACWAE: 
+    LATENT_DIM: [128]
+    BETA : [1.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [64]
+    DROPOUT_RATE: [0.4]
+    NUM_DROPOUTS: [10]
+    RANDOM_INIT: [False] 
+    EXHAUSTIVE: [False]
+
+  JMVAE: 
+    LATENT_DIM: [128]
+    BETA : [1.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [64]
+
+  MVTCAE: 
+    LATENT_DIM: [128]
+    BETA : [1.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [64]
+
+  NEXUS: 
+    LATENT_DIM: [128]
+    BETA : [1.0]
+    EPOCHS: [150]
+    LEARNING_RATE: [5e-4]
+    BATCH_SIZE: [64]
+

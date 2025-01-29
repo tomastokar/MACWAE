@@ -1,0 +1,19 @@
+name: PyMuvae
+channels:
+   - pytorch
+   - anaconda
+   - conda-forge
+   - numba
+dependencies:
+   - python=3.8
+   - numpy
+   - scipy
+   - pandas
+   - scikit-learn
+   - pytorch
+   - pip
+   - pyyaml
+   - jupyterlab
+   - matplotlib
+   - scikit-image
+   - gdown
