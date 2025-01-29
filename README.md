@@ -17,6 +17,7 @@ Make sure the datasets are correctly formatted and accessible before proceeding 
 
 ## Environment Setup
 To set up a Conda environment, use the provided environment.yml file:
+
 ```console
 conda env create -f environment.yml
 conda activate PyMacwae
@@ -26,9 +27,11 @@ conda activate PyMacwae
 
 ## Run
 The experiments can be launched by executing the respective `.sh` script in the project directory. Before running a script, ensure it has executable permissions:
-```
+
+```console
 chmod +x experiment_run.sh
 ```
+
 These scripts handle experiment execution with predefined settings. Modify them as needed to customize your runs.
 
 ## Experiment Configuration
