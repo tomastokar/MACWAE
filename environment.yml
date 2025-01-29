@@ -1,4 +1,4 @@
-name: PyMuvae
+name: PyMacwae
 channels:
    - pytorch
    - anaconda
