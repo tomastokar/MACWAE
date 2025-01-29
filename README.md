@@ -5,7 +5,7 @@ Multimodal Arbitrary Conditioning with Wasserstein Autoencoder
 Before running the code, ensure that a ./data directory exists in the project folder:
 ```console
 mkdir -p ./data
-```console
+```
 
 Next, acquire the necessary datasets and place them inside the ./data directory. The required datasets are:
 - PolyMNIST
@@ -21,6 +21,7 @@ To set up a Conda environment, use the provided environment.yml file:
 conda env create -f environment.yml
 conda activate PyMacwae
 ```
+
 *Note:* This environment is configured for CPU-only execution. If you plan to run experiments on a GPU (recommended), you may need to install PyTorch and related libraries compatible with your NVIDIA driver version. Refer to the official PyTorch installation guide (`https://pytorch.org/get-started/locally/#mac-installation`) to find the appropriate versions.
 
 ## Run
